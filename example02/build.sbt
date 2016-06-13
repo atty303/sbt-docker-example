@@ -2,7 +2,7 @@ lazy val root = (project in file("."))
     .enablePlugins(JavaAppPackaging, AshScriptPlugin, sbtdocker.DockerPlugin)
     .settings(
       organization := "io.github.atty303",
-      name := "example01-sd",
+      name := "example02",
       version := "1.0.0-SNAPSHOT",
       scalaVersion := "2.11.8",
       mainClass in (Compile, run) := Some("Boot"),
